@@ -1,0 +1,13 @@
+$black: #000000;
+$danger: rgb(224, 0, 0);
+
+.container {
+    margin: 0 auto;
+        &:hover {
+            border: 1px solid $black
+        }
+}
+
+h1 {
+    color: $danger;
+}
